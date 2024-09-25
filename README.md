@@ -1,4 +1,5 @@
 vi tmax.conf
+```
 # tmux
 # sysnchronize-pane 을  y로
 bind-key y set-window-option synchronize-panes
@@ -22,7 +23,9 @@ bind -n M-Down select-pane -D
 
 ## 마우스 모드   컨트롤 a [
 set -g mouse on
-
+```
 
 -----
+```
 tmux source-file tmux.conf
+```
